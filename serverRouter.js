@@ -1,7 +1,7 @@
 const express = require('express')
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
-import Document from './document'
+import Document from './components/Document'
 
 const router = express.Router();
 
