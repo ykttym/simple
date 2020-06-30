@@ -5,7 +5,7 @@ import Document from './document'
 
 const router = express.Router();
 
-const html = ReactDOMServer.renderToStaticMarkup(<Document />)
+const html = ReactDOMServer.renderToString(<Document />)
 
 router.get("/", function (req, res, next) {
   res.send(html);
