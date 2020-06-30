@@ -3,7 +3,7 @@
  * https://babeljs.io/docs/en/babel-preset-react#via-node-api
  */
 require('@babel/register')({
-  presets: ['@babel/preset-react']
+  presets: ['@babel/preset-env', '@babel/preset-react']
 })
 const express = require('express');
 const app = express();
