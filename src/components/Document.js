@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Document = (children) => (
+const Document = ({ children }) => (
   <html lang="en">
     <head>
       <meta charSet="UTF-8" />
